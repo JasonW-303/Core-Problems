@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Balsamiq Sans', sans-serif;
+}
+
+/* Navigation Bar: */
+.nav-bar{
+    background-color: black;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    color: white;
+    padding-right: 30px;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-right: 150px;
+}
+
+a{
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+}
+a.active{
+    color: white;
+}
+
+.sign-out{
+    background-color: teal;
+    border: 2px solid black;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+}
+/* Main body: */
+.main-body{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Column 1 (left-side) */
+
+.col-left{
+    flex-direction: column;
+}
+/* User Card: */
+.user-card{
+    display: inline-block;
+    border: 2px solid grey;
+    width: 400px;
+    margin-right: 10px;
+}
+
+.top{
+    background-color: rgb(0, 113, 128);
+    height: 100px;
+    position: relative;
+}
+
+.avatar{
+    width: 90px;
+    height: 90px;
+    border-radius: 360px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.card-body{
+    padding: 20px;
+    padding-top: 45px;
+}
+
+.mb{
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.icon{
+    width: 12px;
+    height: 12px;
+}
+
+.edit-link{
+    color: rgb(71, 108, 255);
+}
+
+/* Column 2 (right-side) */
+
+.col-right{
+    flex-direction: column;
+}
+/* Connection Requests: */
+.connection-req{
+    display: inline-block;
+    border: 2px solid grey;
+    width: 230px;
+    height: 180px;
+}
+
+.con-req-top{
+    align-items: center;
+    padding: 15px;
+    display: flex;
+    color: rgb(201, 201, 201);
+    background-color: rgb(46, 46, 46);
+    height: 50px;
+    gap: 10px;
+}
+
+.num-req{
+    background-color: rgb(201, 201, 201);
+    border: 1px solid rgb(201, 201, 201);
+    color: black;
+    text-align: center;
+    border-radius: 360px;
+    width: 22px;
+    height: auto;
+}
+
+.con-req-main{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.user-req1{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.accept{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+.deny{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.av-todd{
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 360px;
+}
+.name-todd{
+    margin-left: 10px;
+}
+
+.user-req2{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.av-phil{
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 360px;
+}
+.name-phil{
+    margin-left: 10px;
+    margin-right: 8px;
+}
+
+/* Education */
+.education{
+    margin-top: 20px;
+    border: 2px solid grey;
+    width: 400px;
+    height: 190px;
+}
+
+.edu-top{
+    align-items: center;
+    padding: 15px;
+    display: flex;
+    color: rgb(201, 201, 201);
+    background-color: rgb(46, 46, 46);
+    height: 50px;
+    gap: 10px;
+}
+
+.edu-body{
+    display: block;
+    padding: 20px;
+}
+
+.edu-program{
+    height: fit-content;
+}
+
+.edu-date{
+    color: gray;
+    margin-top: 5px;
+}
+
+.edu-certs{
+    margin-top: 20px;
+}
+/* Connections: */
+.connections{
+    border: 2px solid grey;
+    width: 230px;
+    height: 322px;
+    margin-top: 20px;
+}
+
+.connections-top{
+    align-items: center;
+    display: flex;
+    color: rgb(201, 201, 201);
+    background-color: rgb(46, 46, 46);
+    height: 50px;
+    padding: 15px;
+    gap: 15px;
+}
+
+.con-num{
+    background-color: rgb(201, 201, 201);
+    border: 1px solid rgb(201, 201, 201);
+    color: black;
+    text-align: center;
+    border-radius: 360px / 150px 150px 150px 150px;
+    width: 50px;
+    height: 20px;
+}
+
+.connections-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.con-group1{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.av-adrian{
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 360px;
+}
+
+.name-adrian{
+    margin-left: 10px;
+}
+
+.con-group2{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.av-anne{
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 360px;
+}
+
+.name-anne{
+    margin-left: 10px;
+}
+
+.con-group3{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.av-alayne{
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 360px;
+}
+
+.name-alayne{
+    margin-left: 10px;
+}
+
+.con-group4{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.av-arry{
+    height: 45px;
+    width: 45px;
+    border: 1px solid black;
+    border-radius: 360px;
+}
+
+.name-arry{
+    margin-left: 10px;
+}
+
+.view-more{
+    display: flex;
+    margin-top: 10px;
+    border-top: 2px solid gray;
+    padding: 8px;
+}
+
+.vm-link{
+    text-decoration: underline;
+    color: blue;
+}

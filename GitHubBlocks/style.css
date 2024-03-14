@@ -1,0 +1,104 @@
+.topContainer{
+    height: 100px;
+    margin: 10px;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    background-color: white;
+}
+
+.header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    margin: 0px auto;
+}
+
+#box1{
+    padding: 20px;
+    width: 880px;
+    height: 200px;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 83, 74);
+}
+
+.b1c1{
+    width: 200px;
+    height: 200px;
+    display: flex;
+
+}
+
+.b1c2{
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+.b1c3{
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+#box2{
+    padding: 20px;
+    width: 880px;
+    height: 200px;
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 116, 146);
+}
+
+.b2c1{
+    margin: 70px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    background-color: white;
+
+}
+
+.b2c2{
+    margin: 70px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    background-color: white;
+}
+
+#box3{
+    padding: 20px;
+    width: 880px;
+    height: 200px;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 170, 0);
+}
+
+.b3c1{
+    width: 200px;
+    height: 200px;
+    display: flex;
+
+}
+
+.b3c2{
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
+
+.b3c3{
+    width: 200px;
+    height: 200px;
+    display: flex;
+}
